@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: 659474939385.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-swap:v1
+          image: 659474939385.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-swap:latest
           ports:
             - containerPort: 3000
 ---
@@ -31,3 +31,4 @@ spec:
   ports:
     - port: 80
       targetPort: 3000
+
